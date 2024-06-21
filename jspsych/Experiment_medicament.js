@@ -266,6 +266,8 @@ var gcbs_label = [
 
 var gcbs_questionnary = {
   type: jsPsychSurveyLikert,
+  min: 1,
+  max: 5,
   preamble:
   "<p class='instructions_questionnary bold'>Beliefs About the World</p>" +// ATTENTION différent de qualtrics
   "<p class='instructions_questionnary'>We are interested in your beliefs about the world. There is often debate about whether or not the public is told the whole truth about various important issues. " +// ATTENTION différent de qualtric
@@ -302,6 +304,8 @@ var gihs_label = [
 
 var gihs_questionnary = {
   type: jsPsychSurveyLikert,
+  min: 1,
+  max: 5,
   preamble:
   "<p class='instructions_questionnary bold'>Please answer this set of questions about you.</p>"+
   "<p class='instructions_questionnary'>Again, there are no right or wrong answers. Just tell what you think and be as honest as possible.</p>"+
