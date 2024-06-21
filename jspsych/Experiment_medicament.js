@@ -193,6 +193,7 @@ var slider = {
   require_movement: true,
   min: 1,
   max: 100,
+  step: 1,
   labels: ['1<br>Very small extent', '100<br>Very large extent'],
   stimulus: function(){
     var response = jsPsych.data.get().last().values()[0].response.Q0;
