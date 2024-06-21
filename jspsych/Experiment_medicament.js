@@ -426,7 +426,7 @@ var save_data = {
 
 //timeline
 timeline.push 
-  (//browser_check,
+  (browser_check,
   welcome,
   consent,
   consigne,
