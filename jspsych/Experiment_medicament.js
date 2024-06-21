@@ -189,7 +189,7 @@ var question = {
 
 var slider = {
   type: jsPsychHtmlSliderResponse,
-  slider_start: 1,
+  slider_start: 0,
   require_movement: true,
   labels: ['1<br>Very small extent', '100<br>Very large extent'],
   stimulus: function(){
