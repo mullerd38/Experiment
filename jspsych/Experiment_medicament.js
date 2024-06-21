@@ -257,17 +257,15 @@ var instruction_questionnary = {
 
 ///Questionnary gcbs 
 var gcbs_label = [
-  "<br>Definitely not true", 
-  "<br>Probably not true", 
-  "<br>Not sure / Cannot decide", 
-  "<br>Probably true", 
-  "<br>Definitely true"
+  "1<br>Definitely not true", 
+  "2<br>Probably not true", 
+  "3<br>Not sure / Cannot decide", 
+  "4<br>Probably true", 
+  "5<br>Definitely true"
 ];
 
 var gcbs_questionnary = {
   type: jsPsychSurveyLikert,
-  min: 1,
-  max: 5,
   preamble:
   "<p class='instructions_questionnary bold'>Beliefs About the World</p>" +// ATTENTION différent de qualtrics
   "<p class='instructions_questionnary'>We are interested in your beliefs about the world. There is often debate about whether or not the public is told the whole truth about various important issues. " +// ATTENTION différent de qualtric
@@ -295,17 +293,15 @@ var gcbs_questionnary = {
 
 ///Questionnary IH
 var gihs_label = [
-  "<br>Not at all true of me", 
-  "<br>Slightly true of me", 
-  "<br>Moderately true of me", 
-  "<br>Very true of me", 
-  "<br>Extremely true of me"
+  "1<br>Not at all true of me", 
+  "2<br>Slightly true of me", 
+  "3<br>Moderately true of me", 
+  "4<br>Very true of me", 
+  "5<br>Extremely true of me"
 ];
 
 var gihs_questionnary = {
   type: jsPsychSurveyLikert,
-  min: 1,
-  max: 5,
   preamble:
   "<p class='instructions_questionnary bold'>Please answer this set of questions about you.</p>"+
   "<p class='instructions_questionnary'>Again, there are no right or wrong answers. Just tell what you think and be as honest as possible.</p>"+
