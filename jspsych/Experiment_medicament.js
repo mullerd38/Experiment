@@ -398,7 +398,7 @@ var prolific = {
   trial_duration: 3000,
   choices: "NO_KEYS",
   on_finish: function(){
-  window.location.href = "https://app.prolific.com/submissions/complete?cc=CRLNJ9EJ";
+  window.location.href = "https://app.prolific.com/submissions/complete?cc=C4B65VYL";
   }
 }
 var prolific_id = jsPsych.data.getURLVariable('PROLIFIC_PID');
@@ -445,8 +445,8 @@ timeline.push
   age,
   comment,
   waiting_demand,
-  save_data, //PAS TOUCHER
-  //prolific PAS TOUCHER
+  save_data, 
+  prolific 
 )
 
 jsPsych.run(timeline)
