@@ -257,11 +257,11 @@ var instruction_questionnary = {
 
 ///Questionnary gcbs 
 var gcbs_label = [
-  "1<br>Definitely not true", 
-  "2<br>Probably not true", 
-  "3<br>Not sure / Cannot decide", 
-  "4<br>Probably true", 
-  "5<br>Definitely true"
+  "<br>Definitely not true", 
+  "<br>Probably not true", 
+  "<br>Not sure / Cannot decide", 
+  "<br>Probably true", 
+  "<br>Definitely true"
 ];
 
 var gcbs_questionnary = {
@@ -293,11 +293,11 @@ var gcbs_questionnary = {
 
 ///Questionnary IH
 var gihs_label = [
-  "1<br>Not at all true of me", 
-  "2<br>Slightly true of me", 
-  "3<br>Moderately true of me", 
-  "4<br>Very true of me", 
-  "5<br>Extremely true of me"
+  "<br>Not at all true of me", 
+  "<br>Slightly true of me", 
+  "<br>Moderately true of me", 
+  "<br>Very true of me", 
+  "<br>Extremely true of me"
 ];
 
 var gihs_questionnary = {
