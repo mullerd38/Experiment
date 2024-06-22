@@ -190,7 +190,8 @@ var question = {
       } else {
         return "<p>Erreur : réponse inattendue.</p>";
       }
-    }
+    },
+    required: true // This makes the question required
   }
 ]
 }
