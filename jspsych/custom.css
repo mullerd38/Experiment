@@ -25,7 +25,9 @@
     font-size: 20px;
 }
 
-
+.jspsych-survey-multi-choice-required .required {
+  display: none;
+}
 /*.choice-container {
     position: relative;
     display: inline-block;
