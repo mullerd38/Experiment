@@ -196,10 +196,12 @@ var question = {
           ]; // Default to valid options if an unexpected value is encountered
         }
       }(),
-      required: true // Ensure this makes the question required
+      required: true, // Ensure this makes the question required
+      name: 'medical_question'
   }
-]
-}
+],
+css_classes: ['jspsych-survey-multi-choice-required']
+};
 
 var slider = {
   type: jsPsychHtmlSliderResponse,
