@@ -171,7 +171,7 @@ var procedure_testing = {
 
 //question croyances
 var question = {
-  type : jsPsychSurveyMultiChoice,
+  type: jsPsychSurveyMultiChoice,
   questions: [
     {
       prompt: "<p>On the basis of the information you have gathered, you think that:</p>",
@@ -188,10 +188,15 @@ var question = {
           "Patients have a better chance of recovery with the medicine"
         ];
       } else {
-        return "<p>Erreur : réponse inattendue.</p>";
-      }
-    },
-    required: true // This makes the question required
+        console.error("Unexpected button_randomization value: " + button_randomization);
+          return [
+            "Patients have a better chance of recovery with the medicine",
+            "Patients have as much chance of recovery with the medicine as with the placebo",
+            "Patients have a better chance of recovery with the placebo"
+          ]; // Default to valid options if an unexpected value is encountered
+        }
+      }(),
+      required: true // Ensure this makes the question required
   }
 ]
 }
