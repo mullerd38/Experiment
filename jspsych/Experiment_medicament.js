@@ -199,8 +199,7 @@ var question = {
       required: true, // Ensure this makes the question required
       name: 'medical_question'
   }
-],
-css_classes: ['jspsych-survey-multi-choice-required']
+]
 };
 
 var slider = {
