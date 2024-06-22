@@ -188,19 +188,13 @@ var question = {
           "Patients have a better chance of recovery with the medicine"
         ];
       } else {
-        console.error("Unexpected button_randomization value: " + button_randomization);
-          return [
-            "Patients have a better chance of recovery with the medicine",
-            "Patients have as much chance of recovery with the medicine as with the placebo",
-            "Patients have a better chance of recovery with the placebo"
-          ]; // Default to valid options if an unexpected value is encountered
-        }
-      }(),
-      required: true, // Ensure this makes the question required
-      name: 'medical_question'
+        return "<p>Erreur : réponse inattendue.</p>";
+      }
+    },
+    required: true // This makes the question required
   }
 ]
-};
+}
 
 var slider = {
   type: jsPsychHtmlSliderResponse,
