@@ -176,13 +176,22 @@ var question = {
     {
       prompt: "<p>On the basis of the information you have gathered, you think that:</p>",
       options: function(){if (button_randomization == "medicine_high"){
-        return ["Patients have a better chance of recovery with the medicine", "Patients have as much chance of recovery with the medicine as with the placebo", "Patients have a better chance of recovery with the placebo"];
+        return [
+          "Patients have a better chance of recovery with the medicine",
+          "Patients have as much chance of recovery with the medicine as with the placebo",
+          "Patients have a better chance of recovery with the placebo"
+          ];
       } else if (button_randomization == "medicine_low"){
-        return ["Patients have a better chance of recovery with the placebo", "Patients have as much chance of recovery with the medicine as with the placebo", "Patients have a better chance of recovery with the medicine"];
+        return [
+          "Patients have a better chance of recovery with the placebo",
+          "Patients have as much chance of recovery with the medicine as with the placebo",
+          "Patients have a better chance of recovery with the medicine"
+        ];
       } else {
         return "<p>Erreur : réponse inattendue.</p>";
       }
-    }
+    },
+    required: true // This makes the question required
   }
 ]
 }
