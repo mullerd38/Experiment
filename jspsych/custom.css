@@ -25,7 +25,7 @@
     font-size: 20px;
 }
 
-.jspsych-survey-multi-choice-required .required {
+.jspsych-survey-multi-choice .jspsych-survey-multi-choice-required .jspsych-survey-multi-choice-text span.required {
   display: none;
 }
 /*.choice-container {
